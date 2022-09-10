@@ -1,0 +1,38 @@
+#include <iostream>
+
+using namespace std;
+class time1{
+    int hh;
+    int mm;
+    public:
+    
+        
+        
+        time1(int hour,int min=0)
+        {
+            hh=hour;
+            mm=min;
+        }
+        
+        time1()
+        {
+            hh=2;
+            mm=54;
+        }
+        
+        void printtime()
+        {
+            cout<<"the value of hour  is "<<hh<<" and minute is "<<mm<<endl;
+        }
+};
+
+int main()
+{
+    time1 t1(44,39);
+    t1.printtime();
+    
+    time1 t2(5);
+    t2.printtime();
+    
+    return 0;
+}
