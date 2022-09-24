@@ -11,12 +11,19 @@ public:
         a = n1;
         b = n2;
     }
+
+    // freind function declared inside the class
+    // syntax :
+    // freind {{return_type}} {{function_namne(artguments)()}}
+
     friend Complex sumComplex(Complex o1, Complex o2); // sumComplex is not the member function of the class, but by this syntax it is allowed to access the private data members of this class
     void printNumber()
     {
         cout << "The number is " << a << " + " << b << "i" << endl;
     }
 };
+
+// freind function body defined outside the class
 Complex sumComplex(Complex o1, Complex o2)
 {
     Complex o3;
