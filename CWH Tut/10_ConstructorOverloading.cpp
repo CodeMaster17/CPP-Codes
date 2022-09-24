@@ -24,7 +24,6 @@ public:
     }
 };
 
-
 int main()
 {
     Complex bj(4, 7);
