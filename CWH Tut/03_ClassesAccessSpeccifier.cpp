@@ -10,7 +10,7 @@ private:
     long phone;
 
 public:
-    // these variables can directly be accessed
+    // these variables can directly be accessed by creating object
     string name;
     int salary;
 

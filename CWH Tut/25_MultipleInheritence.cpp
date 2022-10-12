@@ -1,12 +1,13 @@
 // HARSSHIT YADAV
 // 2105891
 //  Multiple Inheritence
+
 #include <iostream>
 using namespace std;
 
 /*
 Syntax for multiple inheritence
-    class {{Deriuved Class}} : {{visibilty mode bse 1}} , {{vvisibility mode base 2}}
+    class {{Derived Class}} : {{visibility mode bse 1}} , {{visibility mode base 2}}
     {
         {{Class body}}
     }
